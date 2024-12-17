@@ -1,7 +1,17 @@
+# Ignore dependencies and cache
 node_modules/
-storage/
 vendor/
-.env
+
+# Logs and environment
+storage/
 *.log
-.DS_Store
+.env
+
+# System files
 .git/
+.DS_Store
+*.zip
+
+# IDE and editor-specific
+.vscode/
+.idea/
