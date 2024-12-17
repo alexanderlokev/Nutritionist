@@ -12,4 +12,5 @@ export default defineConfig({
         outDir: 'public/dist', // Change output directory to 'public/dist'
         emptyOutDir: true, // Clean old files on build
     },
+    root: '.',
 });
