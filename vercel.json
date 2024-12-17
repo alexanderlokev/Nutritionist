@@ -2,8 +2,7 @@
     "version": 2,
     "framework": null,
     "functions": {
-    "api/*.php": {
-      "runtime": "vercel-php@0.6.2"
+        "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
     "builds": [
     { "src": "index.html", "use": "@vercel/static" }
@@ -35,4 +34,5 @@
         "DB_DATABASE": "test_database",
         "DB_USERNAME": "avnadmin"
     }
+    
 }
