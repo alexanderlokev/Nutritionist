@@ -3,6 +3,7 @@
     <head>
         <link href="/css/bootstrap.min.css" rel="stylesheet">
         <title>Register</title>
+        @vite(['resources/js/app.js', 'resources/css/app.css'])
     </head>
 
     <body class="antialiased">
